@@ -6,8 +6,8 @@
 定位: 云平台 + 应用层分发巨头；2025 年起转型自研基础模型（Phi 开放权重小模型 + MAI 自研前沿家族）
 开源/闭源: 双轨——Phi 系列 MIT 开放权重；MAI 系列闭源（仅 Foundry / Azure / OpenRouter 分发）
 模型系列: Phi（开放权重小模型）、MAI（自研前沿家族）、Orca / BitNet / Florence / Kosmos（研究线）
-数据来源: Microsoft 官方博客 & microsoft.ai、Build 2026 官方 keynote 实录、Wikipedia(Phi)、aiwiki/aikkm、Hugging Face(microsoft/phi-4)、百度百科(MAI-Thinking-1)
-状态: 已完善（含 2026-06 Build 2026 七模型发布）
+数据来源: Microsoft 官方博客 & microsoft.ai、Build 2026 官方 keynote 实录、Wikipedia(Phi)、aiwiki/aikkm、Hugging Face(microsoft/phi-4)、百度百科(MAI-Thinking-1)、雪球《全球大模型跟踪》(10.15)、On The Wire (10.16)
+状态: 已完善（含 2026-10 最新 MAI-Base-2 预训练完成）
 ---
 
 # Microsoft（微软）
@@ -31,6 +31,20 @@
 - **2025-08-28 MAI-Voice-1 + MAI-1-preview 发布**——微软**首批端到端自研基础模型**，标志从"OpenAI 集成商"转向"AI 创新者"。
 - **2026-06-02 Build 2026：一次性发布 7 个自研模型**（MAI-Thinking-1 / MAI-Code-1-Flash / MAI-Image-2.5 / MAI-Voice-2 / MAI-Transcribe-1.5 等），MAI-Thinking-1 为首个推理模型，SWE-Bench Pro 53% 对齐 Opus 4.6。
 - 2026 MAI 模型与自研 **Maia 200** 芯片协同设计，性能功耗比再提升 1.4×。
+- **2026-10-16 MAI-Base-2 预训练完成**：2.8 万亿参数 MoE，每请求激活 800 亿。官方称在私有留出测试上击败所有开放权重模型，且预训练算力远低于 DeepSeek-V4-Pro-Base；Business Insider 另报道 Suleyman 对内称以约 1/4 算力超过 comparable 的 OpenAI 基座（私有测试，非公开基准）。**仍在做后训练，尚无访问途径。**
+
+## 近一月动态（2026-09-22 → 2026-10-22）
+
+| 日期 | 事件 |
+|---|---|
+| 10 月初 | 微软披露 **GPT-6.1 Sol 与 GPT-6 Sol 同基座权重**、推理循环由 3 轮降至 2 轮（这一披露把 OpenAI 的"代际升级"叙事复杂化了） |
+| 10 月中 | 报道称自研 **Maia 300** 芯片瞄准英伟达，AI 芯片自研竞赛升温 |
+| 10-16 | **MAI-Base-2 预训练完成**（2.8T MoE / 80B 激活，官方强调无蒸馏） |
+| 10 月 | 新版 Copilot 整合完整 Office 应用体验；Word Copilot 新增引用功能以遏制 AI 幻觉 |
+| 10 月 | 披露 Copilot+ PC 每月本地 AI 推理超 2 万亿次 |
+| 10 月 | 微软研究院发布 Magnetar 零知识证明通用计算框架（可在不重跑任务、不泄露敏感数据前提下校验计算结果，叠加抗量子密码） |
+
+> ⚠️ MAI-Base-2 的性能对比全部来自微软自有私有留出测试，且对比对象中三个为已后训练模型——**口径不对等，不可与公开基准成绩混用**。
 
 ## 系列导航
 

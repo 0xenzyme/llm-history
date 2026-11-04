@@ -7,10 +7,20 @@
 开源/闭源: 开放权重（MiniMax-01 起，modified MIT / Apache 2.0）
 模型系列: MiniMax（单系列；含 Hailuo 视频、Speech、Music 分支）
 首个发布时间: 2024-04（abab 6.5）
-最新版本: MiniMax-M3（2026-06-01）
-数据来源: MiniMax 官方、aiwiki、benched.ai、IBM、ima
-状态: 已完善（含 2026-06 最新 M3）
+最新版本: MiniMax-M3.1 Flash（2026-10-19）；M3（2026-06-01）
+数据来源: MiniMax 官方、aiwiki、benched.ai、IBM、ima、中国经营报、Momenta Media、Artificial Analysis、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2026-10-19 最新 M3.1 Flash）
 ---
+
+> 🆕 **近一月动态（2026-09-22 → 2026-10-22）**
+>
+> - **10-19 M3.1 Flash 发布**。此前匿名对外提供服务、累计处理超 **200 万亿 Token** 的模型 **Space Bunny（太空兔）即其早期版本**——Space Bunny 自 9 月下旬上线后 3 天内登上 OpenRouter 与 OpenCode 的 Token 日调用量榜首。
+>   - 能力（MiniMax 自行公布）：DeepSWE v1.1 **73.7%**、OSWorld V2 **61.7**、CyberGym **82%**、Agents' Last Exam **29.6**、BankerToolBench **76.2**；OSWorld V2 与 Agents' Last Exam 称国产模型第一。
+>   - 效率：更激进的稀疏注意力架构，日常输出 **200+ TPS**、中位数（P50）**170+ TPS**；线上推理速度较前代提升近 3 倍，Agent 类任务综合成本降约 70%。
+>   - 定价：输入 ¥1 / 输出 ¥4 / 缓存读取 ¥0.1 每百万 token——较 M3 输入输出单价均降 50%+，缓存读取降超 70%。Artificial Analysis 智能指数 **42**，加权平均单任务成本约 $0.22。
+>   - ⚠️ **M3.1 正式版与 M3 Pro（约 3 万亿参数）截至 2026-10-22 仍未上线**；官方称后续将开放权重并推出 Pro 版，无具体时间。
+> - **10-13/14** 入驻天猫开设首家官方旗舰店，"双 11"开卖 Token 套餐（月卡首单限时 5 折、起售价 24.5 元），C 端商业化提速。
+> - **二级市场承压**：10-14 MINIMAX-W 盘中一度跌超 12%、收盘跌超 10%（10-03 收 242.8 港元、市值 855.82 亿港元），已较 3 月峰值约 4100 亿港元大幅回落。
 
 
 # MiniMax（稀宇科技）

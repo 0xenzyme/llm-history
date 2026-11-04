@@ -6,8 +6,8 @@
 定位: 从"卖铲子"到"自己也挖矿"——开放模型 + 训练数据 + 配方全量开放，服务 Agentic AI
 开源/闭源: 开放权重（NVIDIA Open Model License；训练数据部分为可撤销的训练专用许可）
 模型系列: Nemotron（dense → 混合 Mamba-Transformer → 混合 MoE）
-数据来源: NVIDIA 官方 nemotron 页面与 llm-info、aiwiki(nemotron / nemotron_3)、systems-analysis、everybodywiki、arXiv(2406.11704、2504.03624、2508.14444)
-状态: 已完善（含 2026-09 Nemotron-3-Ultra-CC）
+数据来源: NVIDIA 官方 nemotron 页面与 llm-info、aiwiki(nemotron / nemotron_3)、systems-analysis、everybodywiki、arXiv(2406.11704、2504.03624、2508.14444)、NVIDIA 官方博客（2026-10-17）、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2026-10 最新 Nemotron 3.5 Super VL / Bolt）
 ---
 
 # NVIDIA Nemotron
@@ -38,6 +38,26 @@ NVIDIA 自己的概括：**Nemotron 1 增强 Llama 的推理能力 → Nemotron 
 | Nemotron-Labs-Diffusion | 2026-07 | 3B / 8B / 14B | 扩散研究线 |
 | Nemotron 3.5 Lightning | 2026-08 | 30B MoE / 3B 激活 | 常驻 Agent 的执行模型，配 NeMo Switchyard 路由器 |
 | Nemotron-3-Ultra-CC | 2026-09 | — | 竞赛系统，IOI 2026 非官方实跑 535.4/600 |
+| **Nemotron 3.5 Super VL** | **2026-10-17** | 120B 总 / 12B 激活 | 面向常驻 Agent 的开放多模态模型，可跨文本/图像/文档/视频推理并调用工具；官方称同类最快（约 5× 吞吐）。许可 OpenMDW-1.1 |
+| **Nemotron 3.5 Bolt 74B-A9B（24GB）** | 2026-10-17 | 74B 总 / 9B 激活 | 端侧：原生 2-bit 量化塞进 24GB，可在 RTX / DGX Spark 本地跑 Agent 任务；PinchBench 同类开源第一、BrowseComp 开源第二 |
+| **Nemotron 3.5 Bolt E4B（4GB）** | 2026-10-23（预告） | 4B 级 | 面向 GeForce RTX / Jetson / DGX Spark 的对话与物理 Agent；截至 2026-10-22 待发布 |
+
+> 家族分工（官方口径）：**Lightning**（2026-08）= 高吞吐；**Ultra** = 最难推理任务；**Super VL** = 多模态常驻 Agent；**Bolt** = 边缘与本地。
+
+## 近一月动态（2026-09-22 → 2026-10-22）
+
+| 日期 | 事件 |
+|---|---|
+| 10-08 | 发布桌面 AI 超算 **DGX Station for Windows**（GB300 Grace Blackwell Ultra，统一内存最高 748GB，可承载约 1 万亿参数模型），计划四季度上市；RTX Spark 定档 10-07，DGX Spark 64GB 版 10-23 发售 |
+| 10-17 | **Nemotron 3.5 Super VL ＋ Bolt 74B-A9B** 发布；Bolt E4B 定档 10-23 |
+| 10 月中 | 黄仁勋欧洲行：追加约 20 亿美元投资欧洲 AI 生态与开源技术，直接注资四家法国初创（Doctolib、Pigment、Entalpic、Genesis AI）；GTC Berlin 10-20–22 举行 |
+| 10 月 | 据《金融时报》，正洽谈**投资或收购 Reflection AI**（前 DeepMind 研究人员创立的前沿开放模型公司）——若成行意味着 NVIDIA 从"卖铲子"正式下场做基础模型 |
+| 10 月 | 承诺 5 年、2.5 亿美元算力捐赠支持英国 AI 安全研究；Vera Rubin NVL72 投产实测 token 吞吐提升 4.8 倍 |
+| 10 月 | vLLM 针对 DeepSeek-V4-Flash 与 Nemotron-3.5-Lightning 做到推理采样与训练前向 logprobs 比特级一致，采样吞吐维持 91% |
+
+### Super VL 的后训练采用方（Nemotron "燃料"定位的直接体现）
+
+Scale AI（Skydance 供应商信贷金融 Agent、EY 并购尽调 Agent）、AfterQuery（Hebbia 信贷协议分析）、**AI21** 与 Alice（网络安全攻击韧性）、Mercor（APEX-SWE 编码 Agent）、Atlassian（Jira/Confluence 跨应用智能体搜索）、CrowdStrike（企业级 Agentic blue teaming）、Dassault Systèmes（工程设计与仿真）、Ramp、Dream、Lila Sciences、R1、ModelScope（ms-swift 微调）。
 
 ## 关键里程碑
 
@@ -46,6 +66,7 @@ NVIDIA 自己的概括：**Nemotron 1 增强 Llama 的推理能力 → Nemotron 
 - **2025-12-15 Nemotron 3**：正式成为"开放模型厂商"——同时提供权重、训练数据与配方，路透与 Wired 均将其视为 NVIDIA 从硬件供应商向模型开发者扩张的标志。
 - **2026-03 Nemotron Coalition** 成立：多家 AI 实验室协作开发开放前沿模型，被视为 Nemotron 4 的铺垫。
 - 2026-06 Nemotron 3 Ultra（550B/55B）发布，家族规模封顶。
+- **2026-10-17 Nemotron 3.5 Super VL / Bolt**：家族从"服务器档"补齐到"边缘档"，覆盖从企业服务器到 RTX / Jetson 本地硬件的全谱系。
 
 ## 重点 model 文档
 

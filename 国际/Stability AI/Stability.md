@@ -6,13 +6,16 @@
 定位: 开放权重生成媒体（图像/视频/音频）；2024 后重心转向企业级创意生产平台
 开源/闭源: 开放权重为主（Stability AI Community License；低于营收门槛可商用）
 模型系列: Stable Diffusion（图像）、Stable Video（视频）、Stable Audio（音频）、Stable Image / Brand Studio（产品）
-数据来源: stability.ai 官方新闻、Wikidata(Stable Diffusion)、Grokipedia、digital-humans.org、Wikiwand
-状态: 已完善（含 2026-05-20 Stable Audio 3.0）
+数据来源: stability.ai 官方新闻、Wikidata(Stable Diffusion)、Grokipedia、digital-humans.org、Wikiwand、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2026-05-20 Stable Audio 3.0）；**2026-09-22 → 10-22 无新增模型发布**
 ---
 
 # Stability AI
 
 Stability AI 凭 Stable Diffusion 把文生图从实验室带到了消费级显卡上，直接催生了 LoRA / ControlNet / Civitai 这一整代微调生态。它的历史也是一部"开放权重与社区契约"的教科书——两次因改训练数据与架构而被社区反弹。
+
+> **近一月（2026-09-22 → 10-22）：无新增模型发布。** Stable Audio 3.0（2026-05-20）仍是最新。
+> 同期与 Stability 高度相关的两件事（都不由它主导）：① 前 Sora 研究负责人 Bill Peebles 与梦工厂联合创始人 Jeffrey Katzenberg 等创立 AI 影视新公司，拟以**股权置换**方式获取 Sora 模型授权；② 索尼音乐要求各平台删除超 26 万首冒充旗下艺人的 AI 生成曲目，几乎是 3 月底的两倍——生成媒体的版权压力仍在加码。
 
 ## 版本演进表
 

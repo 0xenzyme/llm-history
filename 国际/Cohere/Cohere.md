@@ -6,13 +6,16 @@
 定位: 企业级 AI，专注 RAG / 检索 / 多语言；2026 年合并 Aleph Alpha 后成为"跨大西洋主权 AI"平台
 开源/闭源: 混合——Command 主线开放权重（CC-BY-NC + 商业许可），Command A+ 起改 Apache 2.0；Aya 线 CC-BY-NC（研究为主）
 模型系列: Command（生成/Agentic）、Embed（嵌入）、Rerank（重排）、Aya（开放权重多语言）、Transcribe（语音）
-数据来源: Cohere 官方文档(docs.cohere.com model ids)、benched.ai、innfactory、IBM Think LLM 列表、presenc.ai、TechCrunch(合并报道)
-状态: 已完善（含 2026-05 Command A+ 与 2026-04 合并 Aleph Alpha）
+数据来源: Cohere 官方文档(docs.cohere.com model ids)、benched.ai、innfactory、IBM Think LLM 列表、presenc.ai、TechCrunch(合并报道)、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2026-05 Command A+ 与 2026-04 合并 Aleph Alpha）；**2026-09-22 → 10-22 无新增模型发布**
 ---
 
 # Cohere
 
 Cohere 走的是与前沿实验室不同的路：不追逐通用聊天榜首，而是把**检索增强（RAG）、重排、多语言**做成可投产的企业基础设施。2026 年合并德国 Aleph Alpha 后，它同时成为"主权 AI"叙事的主角之一。
+
+> **近一月（2026-09-22 → 10-22）：无新增模型发布。** 本库检索到的公开信息中，Cohere 在此期间没有发布新代际 Command / Aya / Embed / Rerank 模型。Command A+（2026-05，218B/25B MoE，Apache 2.0，覆盖 48 语言含全部欧盟官方语言）仍是当前旗舰。
+> 需要留意的是：Cohere 的"主权 AI"叙事本轮被 Mistral 抢走了风头——Mistral 10 月完成约 30 亿欧元 D 轮（估值约 210 亿欧元，三星领投）并发布万亿级 Mistral Large 4，欧洲资本与注意力集中流向 Mistral。
 
 ## 四条产品线
 

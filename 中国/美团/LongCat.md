@@ -6,9 +6,17 @@
 定位: **为真实工作任务与 Agentic Coding 而生**；业界首个在**五万卡国产算力集群**上完成全流程训练与推理的万亿参数模型，走"自研底座 + 全面开源（MIT）+ 业务反哺"路线
 开源/闭源: **全线开源（MIT 协议，允许免费商用）**——LongCat-Flash 系列、LongCat-2.0 系列、LongCat-Next、LongCat-AudioDiT、LongCat-Video-Avatar 等均开源；同时大量开源评测基准（VitaBench、LoHoSearch、MineExplorer、WBench、General 365、LARYBench）
 模型系列: **LongCat-Flash 线**（560B，Chat / Thinking / Omni / Lite / Flash-Prover）+ **LongCat-2.0 线**（1.6T，含 2.5-Preview）+ 语音与视觉（LongCat-AudioDiT、LongCat-Video-Avatar）+ 原生多模态（LongCat-Next）+ 平台（CatPaw、longcat.chat）
-数据来源: 美团技术团队博客（tech.meituan.com）、LongCat 官网 longcatai.org、百度百科（LongCat-2.0）、中国经济时报、InfoQ（2026-09-25）、Pandaily（2026-09-25）、Digital Applied / VentureBeat（截至 2026-09-30）
-状态: 已完善（含 2026-09-25 LongCat-2.5-Preview）
+数据来源: 美团技术团队博客（tech.meituan.com）、LongCat 官网 longcatai.org、百度百科（LongCat-2.0）、中国经济时报、InfoQ（2026-09-25）、Pandaily（2026-09-25）、Digital Applied / VentureBeat（截至 2026-09-30）、CSDN（2026-10-16）
+状态: 已完善（含 2026-09-25/26 LongCat-2.5-Preview）
 ---
+
+> 🆕 **近一月动态（2026-09-22 → 2026-10-22）**
+>
+> - **LongCat-2.5-Preview 上线**（09-25 发布，09-26 相关解读见报）：保留 LongCat-2.0 的 **1.6 万亿总参数 / 约 480 亿激活** MoE 结构与原生 **100 万 token** 上下文，新增**图像理解能力**。
+>   - 与以往把多模态拆成独立开源仓库不同，2.5 把视觉信息处理**直接整合进语言模型基座**，实现图文在同一框架下联合建模——源于 LongCat-Next 验证过的 **DiNA（离散原生自回归）**范式：图像等非文本数据转为离散 token，与文字统一输入。
+>   - 已通过官方 API 开放，最大输出 **128K tokens**，同时兼容 **OpenAI 与 Anthropic 接口格式**——Codex、Claude Code 等主流 Agent 工具只需改 base URL 与模型名即可调用。
+> - **10-16** 美团技术团队公开 SLM 高并发推理优化实践：静态 DAG 编排 + AOTInductor 编译 + KV 共享 + FP8 选择性计算，端到端时延 <20ms 约束下 Prefill-only MFU 达 67%，在线吞吐对比 SGLang 提升 10 倍。
+> - 注：本轮美团的重心在**推理工程与多模态统一**，而非新的参数代际。
 
 # 美团（LongCat）
 

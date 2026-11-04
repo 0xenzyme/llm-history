@@ -6,9 +6,12 @@
 定位: **从通用基座转向"造医生、改路径、促医学"**——2025-03 战略重组后**全力聚焦医疗**，是"AI 六小虎"中最彻底的一次垂类转向
 开源/闭源: **混合但偏开源**——Baichuan-7B/13B/2 系列、Baichuan-M1-14B、Baichuan-M2（32B）、Baichuan-M3 等开源可商用；Baichuan 3/4、M2 Plus、M3 Plus 等旗舰与增值版本闭源或 API 化
 模型系列: **Baichuan 通用基座**（7B / 13B / 53B / 2 系列 / 3 / 4）+ **Baichuan-M 医疗线**（M1-preview / M1-14B / M2 / M2 Plus / M3 / M3 Plus / M4）+ Baichuan-NPC 角色 + Baichuan-Audio 语音 + Baichuan4-Finance 金融 + 应用（百小应 / 福棠·百川）
-数据来源: 百度百科（百川智能）、aiwiki（Baichuan Intelligence）、爱企查、AI in China 深度报道（2026）、MarkTechPost / Pandaily / SiliconANGLE 融资报道
-状态: 已完善（含 2026-06-22 Baichuan-M4、2026-07 WAIC 医疗落地）
+数据来源: 百度百科（百川智能）、aiwiki（Baichuan Intelligence）、爱企查、AI in China 深度报道（2026）、MarkTechPost / Pandaily / SiliconANGLE 融资报道、网经社《通用大模型人气周榜》
+状态: 已完善（含 2026-06-22 Baichuan-M4、2026-07 WAIC 医疗落地）；**2026-09-22 → 10-22 无新增模型发布**
 ---
+
+> **近一月（2026-09-22 → 10-22）：无新增模型发布。** 最新仍是 Baichuan-M4（2026-06-22，HealthBench 68.6）。
+> 一个正向信号：网经社《通用大模型人气周榜》本期百川智能以 12.1 分**新进榜单第 19**（同期商汤日日新下滑 8 位至第 20）。在通用大模型头部格局趋于集中的背景下，百川"通用 + 医疗"的差异化定位仍获得了一定人气——垂类路线在尾部的流动性中守住了位置。
 
 # 百川智能（Baichuan）
 

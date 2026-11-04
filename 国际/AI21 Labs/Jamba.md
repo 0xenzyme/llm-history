@@ -6,13 +6,15 @@
 定位: 企业级混合架构（Mamba-Transformer）模型；2026-05 起转向 Maestro Agent 平台
 开源/闭源: 混合——Jamba v0.1 / Reasoning 3B / Jamba2 为 Apache 2.0；Jamba 1.5/1.6/1.7 为 Jamba Open Model License（年营收超 5000 万美元的组织商用受限）
 模型系列: Jamba（混合 SSM-Transformer）；前代 Jurassic
-数据来源: AI21 官方文档(docs.ai21.com)、ai21.com 博客、aiwiki(jamba_2)、centerconsulting、faun.dev、arXiv 2403.19887
-状态: 已完善；**注意 2026-05-18 公司裁员 60%+ 并停售独立模型，Jamba 路线图自此后未再公布**
+数据来源: AI21 官方文档(docs.ai21.com)、ai21.com 博客、aiwiki(jamba_2)、centerconsulting、faun.dev、arXiv 2403.19887、NVIDIA 官方博客（2026-10-17）
+状态: 已完善；**注意 2026-05-18 公司裁员 60%+ 并停售独立模型，Jamba 路线图自此后未再公布**；2026-10 以「后训练合作方」身份出现在 NVIDIA Nemotron 生态中
 ---
 
 # AI21 Labs（Jamba）
 
 Jamba 是最早把 **Mamba 状态空间层与 Transformer 注意力层交错**并做到生产规模的模型家族——核心价值不在跑分，而在**长上下文的内存与吞吐成本**：长文档能在更少 GPU 上跑。
+
+> ⚠️ **近一月（2026-09-22 → 10-22）：AI21 未发布任何新 Jamba 模型。** 唯一出现是 2026-10-17 NVIDIA Nemotron 3.5 Super VL 的官方后训练采用方名单中，AI21 与 Alice 一起为"网络安全攻击韧性"方向做了定制后训练。也就是说：AI21 已从"模型厂商"转为 **Nemotron 生态里的后训练/方案合作方**。Jamba 路线图仍无更新，Jamba2（2026-01）依旧是该家族最后一代。
 
 ## 版本演进表
 

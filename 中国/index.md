@@ -4,25 +4,26 @@
 单系列厂商省略系列层，model 文档直接放在厂商目录下。
 
 ## 厂商清单
-- [腾讯](./腾讯/tencent.md)（多系列：混元、元宝）✅
-- [深度求索](./深度求索/DeepSeek.md)（单系列：DeepSeek）✅
-- [月之暗面](./月之暗面/Moonshot.md)（单系列：Kimi）✅
-- [智谱 AI](./智谱/zhipu.md)（多系列：GLM 语言主线 + CogView / CogVideo / CodeGeeX）✅
-- [字节跳动](./字节跳动/bytedance.md)（单系列：豆包 / Seed）✅
-- [MiniMax](./MiniMax/MiniMax.md)（单系列：MiniMax）✅
-- [阿里巴巴](./阿里巴巴/Qwen.md)（单系列：Qwen / 通义千问）✅
-- [百度](./百度/baidu.md)（单系列：文心 ERNIE）✅
-- [科大讯飞](./科大讯飞/iflytek.md)（单系列：星火 Spark）✅
-- [小米](./小米/xiaomi.md)（双线：MiMo 开源 Agent 基座 + MiLM 端侧轻量；旗舰即开源 MIT）✅
-- [华为](./华为/pangu.md)（多线：盘古五大基础模型 + openPangu 开源线；全系昇腾原生训练）✅
-- [阶跃星辰](./阶跃星辰/Step.md)（多线：Step 语言主线 + 多模态 / 语音 / 视频 / 专业 Agent；重度 Apache 2.0 开源）✅
-- [美团](./美团/LongCat.md)（多线：LongCat-Flash 560B + LongCat-2.0 1.6T；全线 MIT，五万卡国产算力训推闭环）✅
-- [面壁智能](./面壁智能/MiniCPM.md)（多线：MiniCPM 文本 + V 视觉 + o 全模态 + Robot 具身；端侧密度定律）✅
-- [京东](./京东/JoyAI.md)（多线：JoyAI 3B–750B 全尺寸矩阵；2025-07 由"言犀"升级；2026 起押具身智能）✅
-- [360](./360/zhinao.md)（多线：360 智脑基座（停在 4.0）+ 纳米 AI 蜂群 / 纳米 Work；安全 + AI 双主线）✅
-- [商汤](./商汤/SenseNova.md)（多线：日日新 SenseNova V6 / U1 统一多模态 + 悟能具身；CV 反向长出语言）✅
-- [百川智能](./百川智能/Baichuan.md)（双线：Baichuan 通用基座（2025-03 后停更）+ Baichuan-M 医疗线；六小虎中最彻底的垂类转型）✅
-- [零一万物](./零一万物/Yi.md)（双线：Yi 开源基座 + 闭源旗舰；2026-09-03 公共 API 已关停，转向企业级）✅
-- [蚂蚁集团](./蚂蚁/Ling.md)（多线：百灵 Ling / Ring / Ming + 灵光 + 灵波具身；全系开源，混合线性架构）✅
+- [腾讯](./腾讯/tencent.md)（多系列：混元、元宝）✅ 最新：Hy4 preview（旗舰，正式版预计 2026-11）；10-14 WorkBuddy 融合企业微信；⚠️ 元器 11-09 停服
+- [深度求索](./深度求索/DeepSeek.md)（单系列：DeepSeek）✅ 最新：**V4.1-Flash-1017（2026-10-17）**；OpenRouter 周调用量全球第一（41 万亿 Token）
+- [月之暗面](./月之暗面/Moonshot.md)（单系列：Kimi）✅ 旗舰仍为 K3；⚠️ K3.1 跳票（截至 10-22 未发布）；Pre-IPO 估值 500 亿美元
+- [智谱 AI](./智谱/zhipu.md)（多系列：GLM 语言主线 + CogView / CogVideo / CodeGeeX）✅ 最新：**GLM-5.3（744B）+ GLM-Legal（10-12）+ Highspeed（490 t/s）**；10-05 上线 AWS Bedrock 按调用量分成
+- [字节跳动](./字节跳动/bytedance.md)（单系列：豆包 / Seed）✅ 本轮无新基座：豆包 2.1 Lite + Seedream 5.0 Flash（10-09）、数据导入（10-14）、原生登陆鸿蒙 PC（10-07）
+- [MiniMax](./MiniMax/MiniMax.md)（单系列：MiniMax）✅ 最新：**M3.1 Flash（2026-10-19）**——匿名模型 Space Bunny 即其早期版；M3.1 正式版与 M3 Pro 未上线
+- [阿里巴巴](./阿里巴巴/Qwen.md)（单系列：Qwen / 通义千问）✅ 最新：**Qwen3.8-Max（2026-10-02，2.4 万亿 MoE）**；⚠️ Qwen4 家族预告 10-22
+- [百度](./百度/baidu.md)（单系列：文心 ERNIE）✅ 最新仍为文心 5.1（2026-05-09）；本轮无新代际
+- [科大讯飞](./科大讯飞/iflytek.md)（单系列：星火 Spark）✅ 最新：**星火 X2.6 + Spark-Audio（2026-10-22，1024 开发者节）**
+- [小米](./小米/xiaomi.md)（双线：MiMo 开源 Agent 基座 + MiLM 端侧轻量；旗舰即开源 MIT）✅ MiMo-V2.6-Pro 以 46 分登顶 AA 开源第一；调用量全球第三
+- [华为](./华为/pangu.md)（多线：盘古五大基础模型 + openPangu 开源线；全系昇腾原生训练）✅ 最新：**openPangu-2.0 全链路训练代码开源 + -Pro 505B（10 月初）**
+- [阶跃星辰](./阶跃星辰/Step.md)（多线：Step 语言主线 + 多模态 / 语音 / 视频 / 专业 Agent；重度 Apache 2.0 开源）✅ **Step 5 Preview 权重 10-15 开源**；10-13 发布 STEPX Neo 智能体手机（3999 元）
+- [美团](./美团/LongCat.md)（多线：LongCat-Flash 560B + LongCat-2.0 1.6T；全线 MIT，五万卡国产算力训推闭环）✅ 最新：LongCat-2.5-Preview（09-25，1.6T/48B，原生多模态并入基座）
+- [面壁智能](./面壁智能/MiniCPM.md)（多线：MiniCPM 文本 + V 视觉 + o 全模态 + Robot 具身；端侧密度定律）✅ 最新：**MiniCPM-V 4.7（2026-10-13），35B-A3B 首个 MoE**
+- [京东](./京东/JoyAI.md)（多线：JoyAI 3B–750B 全尺寸矩阵；2025-07 由"言犀"升级；2026 起押具身智能）✅ 本轮无新增
+- [360](./360/zhinao.md)（多线：360 智脑基座（停在 4.0）+ 纳米 AI 蜂群 / 纳米 Work；安全 + AI 双主线）✅ 本轮无新增
+- [商汤](./商汤/SenseNova.md)（多线：日日新 SenseNova V6 / U1 统一多模态 + 悟能具身；CV 反向长出语言）✅ 最新仍为 U1 Pro 正式版（2026-09-21）；人气榜下滑 8 位至第 20
+- [百川智能](./百川智能/Baichuan.md)（双线：Baichuan 通用基座（2025-03 后停更）+ Baichuan-M 医疗线；六小虎中最彻底的垂类转型）✅ 最新仍为 Baichuan-M4（2026-06-22）；人气榜新进第 19
+- [零一万物](./零一万物/Yi.md)（双线：Yi 开源基座 + 闭源旗舰；2026-09-03 公共 API 已关停，转向企业级）✅ 本轮无新增
+- [蚂蚁集团](./蚂蚁/Ling.md)（多线：百灵 Ling / Ring / Ming + 灵光 + 灵波具身；全系开源，混合线性架构）✅ 最新：**Ling-3.1-flash 开源（2026-10-15，560B/25B，8 卡压到 4 卡）**
 
-> 中国厂商 17 家已全部铺开。国际侧仍有 7 家（Microsoft、Amazon、Cohere、AI21 Labs、Stability AI、NVIDIA、Aleph Alpha）待按相同结构铺开。
+> 中国厂商 20 家已全部铺开（原文"17 家"为早期口径，2026-09-30 已补全至 20 家）。
+> **最后增量更新：2026-10-22**（覆盖 09-22 → 10-22）。本轮中国厂商密集放开源权重，OpenRouter 周调用量前五全部为中国模型。

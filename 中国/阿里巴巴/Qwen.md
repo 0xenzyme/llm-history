@@ -5,9 +5,20 @@
 定位: 企业级通用模型，开源生态最全（累计下载破 10 亿，衍生模型超 20 万）
 开源/闭源: 以开放权重（Apache 2.0）为主；旗舰 Max 系列为闭源 API-only（双轨策略）
 模型系列: Qwen / 通义千问（单系列；含 QwQ 推理、Coder、VL/Omni、Image、Wan 视频分支）
-数据来源: 阿里官方 qwen.ai / 通义实验室、HuggingFace、ModelScope、scriptbyai Qwen Timeline、aiwiki、百度百科、科技日报
-状态: 已完善（含 2026-09 最新 Qwen3.8 代际）
+数据来源: 阿里官方 qwen.ai / 通义实验室、HuggingFace、ModelScope、scriptbyai Qwen Timeline、aiwiki、百度百科、科技日报、阿里云「模型上下架与更新」文档（2026-10-11）、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2026-10 最新 Qwen3.8-Max；Qwen4 家族预告 10-22）
 ---
+
+> 🆕 **近一月动态（2026-09-22 → 2026-10-22）**
+>
+> - **10-02 Qwen3.8-Max**：2.4 万亿参数 MoE 旗舰，官方称"可自主编程十数天交付完整项目"、胜任法律/金融/设计等数百种任务。定位直指 Claude Opus 的推理与编码上限。
+> - **10-04 开源 Qwen3-VL-30B-A3B（Instruct / Thinking）** 与 **Qwen3-VL-235B-A22B FP8**。30B-A3B 在 STEM、VQA、OCR、视频理解、Agent 五方向对标 GPT-5-Mini 与 Claude 4-Sonnet，部分更优（官方口径）。
+> - **图像线**：Qwen-Image-2.1-Pro（10-02 国际站上架）与 **Qwen-Image-2.1-Turbo**（10-09 上架）。Turbo 被官方称为 Qwen-Image 系列综合表现与性价比最优的开源图像生成模型（原生透明、生成与编辑一体化、最多 10 张参考图）。
+> - **09-21** qwen3.8-omni-flash-realtime（实时全模态）与 **09-24** decision-model-preview（结构化决策模型）上架国际站。
+> - **10-13 个人 Agent 硬件**：千问发布 AI 眼镜 N1 / N1 Pro（到手价 2218 元起）与 Bose 联合研发的耳夹式 AI 耳机（1099 元起）。
+> - **10-14** 千问办公发布电商版并开启邀测（跨平台经营看板、趋势洞察、卖点分析）；千问 App 上架鸿蒙电脑版并新增 AI 类实况窗。
+> - ⚠️ **Qwen4 家族（Max / Plus / Flash / 27B）预计 10-22 发布**——截至本文完成时未见官宣，按预告记录，不作既成事实。
+> - **榜单**：Qwen3.8 27B 在 LMArena 文本榜 1438.1；SuperCLUE 具身智能"大脑"榜（9 月）Qwen3.8-Max 与中兴 Nebula 并列中国第一。
 
 # 阿里巴巴（通义千问 / Qwen）
 

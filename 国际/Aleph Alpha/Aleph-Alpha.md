@@ -6,11 +6,14 @@
 定位: 欧洲主权 AI——德国唯一的基础模型公司；2026-04 并入 Cohere，成为跨大西洋主权 AI 平台的欧洲 arm
 开源/闭源: 混合——Luminous 专有；Pharia-1 LLM-7B 与 T-Free 为 Apache 2.0 开放权重
 模型系列: Luminous（专有 LLM）、MAGMA（多模态）、T-Free（无分词器架构）、PhariaAI（企业平台）
-数据来源: TechnoCapture 回顾分析、innfactory、dev.to deep dive、noah-news、TechCrunch/Futurum 合并报道、Hugging Face(tfree-hat-pretrained-7b-base)
-状态: 已完善；**作为独立厂商的历程已于 2026-04-24 结束（并入 Cohere）**
+数据来源: TechnoCapture 回顾分析、innfactory、dev.to deep dive、noah-news、TechCrunch/Futurum 合并报道、Hugging Face(tfree-hat-pretrained-7b-base)、雪球《全球大模型跟踪》(10.15)
+状态: 已完善；**作为独立厂商的历程已于 2026-04-24 结束（并入 Cohere）**；2026-09-22 → 10-22 无任何新动态
 ---
 
 # Aleph Alpha
+
+> **近一月（2026-09-22 → 10-22）：无任何新动态。** 作为独立厂商的历程已于 2026-04-24 结束（并入 Cohere），此后不再有新模型或产品发布。
+> 一个值得记的背景对照：本月欧洲主权 AI 的注意力与资本集中流向 **Mistral**——其完成约 30 亿欧元 D 轮（估值约 210 亿欧元、三星领投）并发布万亿级 Mistral Large 4。合并后的 Cohere 虽是"跨大西洋主权 AI"平台的欧洲 arm，但本轮并无欧洲侧的新动作披露。
 
 欧洲"主权 AI"运动最完整的参考案例：七年、五个阶段，从"德国的 OpenAI"到被加拿大 Cohere 合并。它的结局说明了一件事——**主权叙事正确，但规模决定谁能留在前沿**。
 

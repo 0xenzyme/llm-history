@@ -7,9 +7,9 @@
 开源/闭源: 双轨——开放权重（Apache 2.0 为主）+ 专有 API / 商用许可
 模型系列: Mistral 通用 / Mixtral MoE / Codestral-Devstral 代码 / Magistral 推理 / Pixtral-Voxtral 多模态 / OCR
 首个发布时间: 2023-09-27（Mistral 7B）
-最新版本: Mistral OCR 4（2026-06-23）；通用前沿为 Mistral Medium 3.5（2026-04-30）
-数据来源: mistral.ai 官方模型治理页（legal.mistral.ai，41 模型）、aiwiki、llm-evolution、benched.ai
-状态: 已完善（含 2026-06 最新 OCR 4）
+最新版本: Mistral Large 4 "Le Chonk"（2026-10-06，超 1 万亿总参 / 49B 激活）；此前为 OCR 4（2026-06-23）
+数据来源: mistral.ai 官方模型治理页（legal.mistral.ai）、aiwiki、llm-evolution、benched.ai、雪球《全球大模型跟踪》(10.15)、IT 时代网月报 (10.14)
+状态: 已完善（含 2026-10 最新 Mistral Large 4）
 ---
 
 
@@ -39,6 +39,7 @@ Mistral AI 是欧洲最重要的前沿模型厂商，定位"高效开放权重 +
 | Ministral 3（3B / 8B / 14B） | 2025-12-02 | 端侧小模型 |
 | Mistral Small 4 | 2026-03-16 | |
 | Mistral Medium 3.5 | 2026-04-30 | 专有，当前通用前沿之一 |
+| **Mistral Large 4 "Le Chonk"** | **2026-10-06** | **超 1 万亿总参数 / 490 亿激活**，原生多模态；训练语料覆盖 **160+ 种自然语言**；4000 块 Grace Blackwell 训练。权重官方称"月底开放下载"（截至 2026-10-22 未确认已放）。定价约 $0.68/$2.09 每百万 token |
 
 ### MoE 线（Mixtral）
 | Mixtral 8x7B | 2023-12-11 | 46.7B 总 / 12.9B 激活，Apache 2.0；每层 8 专家选 2；超 Llama 2 70B 且推理快约 6× |
@@ -80,6 +81,17 @@ Mistral AI 是欧洲最重要的前沿模型厂商，定位"高效开放权重 +
 - 2025-06-10 Magistral，推理线独立成军
 - 2025-12-02 **Mistral Large 3**（开放权重前沿）+ Ministral 3 端侧三档
 - 2026-06-23 Mistral OCR 4（官方所列最新之一）
+- **2026-10-06 Mistral Large 4（"Le Chonk"）**——Mistral 首个万亿级总参数模型，与欧洲同期"Le Chonk"系开源项目并列被称为欧洲万亿参数开源双子；主打网络安全与多语言。
+
+## 近一月动态（2026-09-22 → 2026-10-22）
+
+| 日期 | 事件 |
+|---|---|
+| 10-06 | **Mistral Large 4 "Le Chonk"** 发布：超 1 万亿总参 / 49B 激活，原生多模态，160+ 自然语言，4000 块 Grace Blackwell 训练；官方称权重月底开放下载 |
+| 10 月 | 完成约 **30 亿欧元 D 轮**，估值约 **210 亿欧元**（三星领投）——主打欧洲主权 AI 与开源权重全栈 |
+| 10 月 | 与欧洲同期发布的万亿参数开源模型 **Le Chonk** 一起，被解读为"行业竞争从比拼参数转向比拼可控性与安全性"（两家均主打网络安全方向） |
+
+> ⚠️ 权重开放时间：官方口径为"月底"（2026-10 月底），截至 2026-10-22 未见确认，不作既成事实记录。
 
 ## 系列页与重点 model 文档
 - [Mistral 系列（通用语言线）](./Mistral/index.md)

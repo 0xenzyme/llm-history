@@ -6,8 +6,8 @@
 定位: 云平台厂商；Nova 为 Bedrock 独占的第一方基础模型家族，主打性价比与企业分发
 开源/闭源: 闭源（仅 Amazon Bedrock / SageMaker 提供）
 模型系列: Nova（理解 / 创意 / 语音 / Agentic / Embedding / Nova 2 六条支线）；前代 Titan
-数据来源: AWS 官方文档(Model Catalog)、AWS News Blog、hidekazu-konishi Amazon Nova 时间线、systems-analysis、recatools、dawnliphardt
-状态: 已完善（含 2025-12 Nova 2 代与 2026 中"Heritage"降级）
+数据来源: AWS 官方文档(Model Catalog)、AWS News Blog、hidekazu-konishi Amazon Nova 时间线、systems-analysis、recatools、dawnliphardt、雪球《全球大模型跟踪》(10.15)
+状态: 已完善（含 2025-12 Nova 2 代与 2026 中"Heritage"降级；2026-10 Bedrock 第三方模型扩张）
 ---
 
 # Amazon Nova
@@ -52,6 +52,20 @@ Nova 是亚马逊自研的基础模型家族，**仅在 Amazon Bedrock 上提供
 - **2025-04-30 Nova Premier GA**：1M 上下文，定位最强理解模型兼蒸馏教师模型。
 - **2025-12-02 re:Invent 2025：Nova 2 代发布**——Lite/Pro/Sonic/Omni 四模型，全系 1M 上下文 + 扩展思考 + 内置工具（web grounding、代码解释器），并推出 Nova Forge。
 - **2026 年中战略收缩**：Canvas、Reel、Premier、Sonic 一代被打上 **"Heritage"** 标签转为仅维护；Premier 于 2026-09 正式 EOL。
+
+## 近一月动态（2026-09-22 → 2026-10-22）
+
+> Amazon 本轮**没有发布新的 Nova 代际**。它的动作全部在 Bedrock 平台侧——用自己的云货架换生态位。
+
+| 日期 | 事件 |
+|---|---|
+| 10-05 / 10-06 | **智谱 GLM-5.3 上线 Amazon Bedrock**（744B，1M 上下文）。据《科创板日报》，**AWS 按模型调用量与智谱分成**——这是中国模型出海从"卖授权"转向"云货架分成"的标志性一笔 |
+| 10-13 | **xAI Grok 4.7 正式上线 Amazon Bedrock**，可用于构建具备工具调用能力的长程智能体 |
+| 10 月 | 洽谈以约 **70 亿美元收购世界模型初创公司 Decart** |
+| 10 月 | 签署 20 年核电供应协议为 AI 数据中心供电 |
+| 10 月 | Gemini 4 Argon 同周内亦进入多家云平台分发，Bedrock 的"中立货架"策略面临更激烈的第三方模型竞争 |
+
+> ⚠️ "Frontier Model Research"（Pieter Abbeel 领衔，目标 2026 年底 re:Invent）**截至 2026-10-22 仍未发布**，继续按未证实计划记录。
 
 ## 重点 model 文档
 

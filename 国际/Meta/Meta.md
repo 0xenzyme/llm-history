@@ -6,9 +6,9 @@
 开源/闭源: Llama 开放权重（Llama 社区许可）；Muse 双轨（Spark 闭源 API / Glimmer Apache 2.0）
 模型系列: Llama（开放权重基座）+ Muse（2026 独立前沿家族）
 首个发布时间: 2023-02-24（LLaMA 1）
-最新版本: Llama 4（2025-04-05）；前沿为 Muse Spark 1.3（2026-09-02）
-数据来源: Meta 官方 ai.meta.com、Hugging Face、aiwiki、Artificial Analysis、llm-stats
-状态: 已完善（含 2026-09 最新 Muse Spark 1.3 / Glimmer）
+最新版本: Llama 4（2025-04-05）；前沿为 Muse Wonder / Wonder Full（2026-10-12/13），开源档为 Muse Spark Open 816B（2026-10-16）
+数据来源: Meta 官方 ai.meta.com、Hugging Face、aiwiki、Artificial Analysis、llm-stats、雪球《全球大模型跟踪》(10.15)、The Neuron (10.16)
+状态: 已完善（含 2026-10 最新 Muse Wonder / Muse Spark Open）
 ---
 
 
